@@ -7,7 +7,7 @@ steps:
   - name: checkout
     image: woodpeckerci/plugin-git
     commands:
-      - git clone -b fartgram-test --single-branch https://github.com/mchaker/VernissageWeb.git
+      - git clone -b fartgram-clean-test --single-branch https://github.com/mchaker/VernissageWeb.git
 
   - name: build and publish
     image: woodpeckerci/plugin-kaniko
